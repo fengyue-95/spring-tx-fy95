@@ -1,0 +1,8 @@
+C:\Users\zhangjiuliang\Desktop\spring-transaction-propagation-tutorial (1)\spring-tx\src\main\java\com\zjl\spring\tx\Main.java
+C:\Users\zhangjiuliang\Desktop\spring-transaction-propagation-tutorial (1)\spring-tx\src\main\java\com\zjl\spring\tx\service\impl\OuterBeanImpl.java
+C:\Users\zhangjiuliang\Desktop\spring-transaction-propagation-tutorial (1)\spring-tx\src\main\java\com\zjl\spring\tx\service\impl\InnerBeanImpl.java
+C:\Users\zhangjiuliang\Desktop\spring-transaction-propagation-tutorial (1)\spring-tx\src\main\java\com\zjl\spring\tx\service\OuterBean.java
+C:\Users\zhangjiuliang\Desktop\spring-transaction-propagation-tutorial (1)\spring-tx\src\main\java\com\zjl\spring\tx\dao\impl\TestDAOImpl.java
+C:\Users\zhangjiuliang\Desktop\spring-transaction-propagation-tutorial (1)\spring-tx\src\main\java\com\zjl\spring\tx\service\InnerBean.java
+C:\Users\zhangjiuliang\Desktop\spring-transaction-propagation-tutorial (1)\spring-tx\src\main\java\com\zjl\spring\tx\dao\TestDAO.java
+C:\Users\zhangjiuliang\Desktop\spring-transaction-propagation-tutorial (1)\spring-tx\src\main\java\com\zjl\spring\tx\model\User.java
