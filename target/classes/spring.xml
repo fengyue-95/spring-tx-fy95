@@ -14,16 +14,16 @@
 	<tx:annotation-driven />
 	
 	<context:component-scan 
-		base-package="com.zjl.spring.tx.dao.impl" />
+		base-package="com.fy.spring.tx.dao.impl" />
 	<context:component-scan 
-		base-package="com.zjl.spring.tx.service.impl" />
+		base-package="com.fy.spring.tx.service.impl" />
 
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://192.168.147.138:3306/test1" />
-		<property name="username" value="root"/>
-		<property name="password" value="1q2w3e4r" />
+		<property name="url" value="jdbc:mysql://localhost:3306/test1" />
+		<property name="username" value="youerName"/>
+		<property name="password" value="yourPassword" />
 	</bean>
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
@@ -35,7 +35,7 @@
              <prop key="hibernate.show_sql">true</prop>
           </props>
        </property>
-       <property name="packagesToScan" value="com.zjl.spring.tx.model" />
+       <property name="packagesToScan" value="com.fy.spring.tx.model" />
     </bean>
 	
 	<bean id="transactionManager"
